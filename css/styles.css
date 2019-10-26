@@ -1,0 +1,161 @@
+/************************************************************************
+ **                             TAG SELECTORS                          **
+ ************************************************************************/
+
+body{
+    background-color: white;
+    margin: 0;
+    text-align: center; /* center except "width" */
+    font-family: 'Cormorant Upright', serif;
+    font-size: 1.2rem; /* 16px = 100% = 1rem */
+}
+
+div{
+    margin-top: 0px;
+}
+
+hr{
+    border-style: dotted none none;
+    border-top: 10px dotted #c58d6c;
+    width: 10%;
+    margin: 50px auto 50px auto;
+}
+
+h1{
+    color: #c58d6c;
+    margin: 30px auto 0 auto;    
+    font-family: 'Rouge Script', cursive;
+    font-size: 5.625rem;
+}
+
+h2{
+    color: #c58d6c;
+    font-family: 'Cormorant SC', serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    color: #c58d6c;
+    font-family: 'Cormorant SC', serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 2;
+}
+
+a{
+    color: white;
+    font-family: 'Cormorant SC', serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 5px;
+}
+
+a:hover{
+    color: black;
+}
+
+/************************************************************************
+ **                             CLASS SELECTORS                        **
+ ************************************************************************/
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    height: 150px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    height: 150px;
+}
+
+
+ .top-container{
+    background-color: #fffbf5;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.middle-container{
+    padding: 50px;
+}
+
+.mountain-image{
+    height: 500px;
+}
+
+.profile-image{
+    width: 10%;
+}
+
+.html-image{
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+.calligraphy-image{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom-container{
+    background-color: #c58d6c;
+    padding: 50px 0 20px 0;
+}
+
+/* .btn{
+    color: #c58d6c;
+    font-family: 'Cormorant SC', serif;
+    font-size: 2rem;
+    text-decoration: none;
+} */
+
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.butn {
+    background: #ffdb7f;
+    background-image: -webkit-linear-gradient(top, #ffdb7f, #b86a2b);
+    background-image: -moz-linear-gradient(top, #ffdb7f, #b86a2b);
+    background-image: -ms-linear-gradient(top, #ffdb7f, #b86a2b);
+    background-image: -o-linear-gradient(top, #ffdb7f, #b86a2b);
+    background-image: linear-gradient(to bottom, #ffdb7f, #b86a2b);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Cormorant SC', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .butn:hover {
+    background: #ffde73;
+    background-image: -webkit-linear-gradient(top, #ffde73, #d49800);
+    background-image: -moz-linear-gradient(top, #ffde73, #d49800);
+    background-image: -ms-linear-gradient(top, #ffde73, #d49800);
+    background-image: -o-linear-gradient(top, #ffde73, #d49800);
+    background-image: linear-gradient(to bottom, #ffde73, #d49800);
+    text-decoration: none;
+  }
+
+  .copyright{
+      font-size: 1rem;
+  }
+
+ /************************************************************************
+  **                              ID SELECTORS                          **
+  ************************************************************************/
