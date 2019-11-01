@@ -1,4 +1,4 @@
 # cv_10_2019
-CV Sample Using CSS.
+Practice HTML & CSS: CV Sample
 
 https://qdttdev.github.io/cv_10_2019/
